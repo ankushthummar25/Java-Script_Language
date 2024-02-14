@@ -7,13 +7,21 @@
 // HTML DOM METhod
 // document.getElementById("a").innerHTML = 'Hello , i am Ankush Thummar'
 
+
+
+
+
 // console.log(1 ^ 1)
 // console.log(0 ^ 0)
 // console.log(1 ^ 0)
 // console.log(0 ^ 1)
 
+
+
 // let a = ""; // -> undefines  {}
 // console.log(a)
+
+
 
 // console.log(10 + 20)
 // console.log("10" - 20)
@@ -22,8 +30,12 @@
 // console.log(typeof("SKill / 20"))
 
 
+
+
 // let x = Number(prompt('Enter x value : '));     // by defualt -> String
 // console.log((x));
+
+
 
 // loop -> For While dowhile
 // let t = "";
@@ -31,6 +43,7 @@
 //     t = t + i + "\t";
 // }
 // console.log(t);
+
 
 
 
