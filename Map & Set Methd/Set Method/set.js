@@ -27,10 +27,10 @@
 // console.log(data.values());
 
 
-let txt = "";
-data.forEach(Function(val)
-{
-    txt += val + "\n";
-}
-)
+// let txt = "";
+// data.forEach(Function(val)
+// {
+//     txt += val + "\n";
+// }
+// )
 console.log(txt);
