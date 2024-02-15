@@ -1,6 +1,6 @@
 // Set Method
 
-// let data = new Set([10,20,30,40,50, "Hello"]);
+let data = new Set([10,20,30,40,50, "Hello"]);
 
 // let txt = new Set();  // declare
 // data.add("Skill");
@@ -31,6 +31,5 @@
 // data.forEach(Function(val)
 // {
 //     txt += val + "\n";
-// }
-// )
-console.log(txt);
+// });
+// console.log(txt);
