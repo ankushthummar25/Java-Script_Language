@@ -73,12 +73,11 @@ const fruits = new Map([
 
 // // forEach() method
 
-	// let txt = "";
+	let txt = "";                                            // apples => 500
+                                                             // bananas => 300
+	console.log(fruits.forEach((value, key)=>{               // oranges => 200
+			txt = txt + key + " => " + value +"\n"
+	}));
+console.log(txt);
 
-	// console.log(fruits.forEach((value, key))=>{
-	// 		txt += key + " => " + value +"\n";
-	// });
-// console.log(txt);
-// apples => 500
-// bananas => 300
-// oranges => 200
+
