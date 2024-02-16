@@ -27,9 +27,10 @@ let data = new Set([10,20,30,40,50, "Hello"]);
 // console.log(data.values());
 
 
-// let txt = "";
-// data.forEach(Function(val)
-// {
-//     txt += val + "\n";
-// });
-// console.log(txt);
+let txt = "";
+
+data.forEach(function (val) {
+    txt =  txt + val + "\n"; 
+});
+
+console.log(txt);

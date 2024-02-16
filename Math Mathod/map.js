@@ -50,9 +50,9 @@ const fruits = new Map([
 
 // // Delete Map Value
 
-const deleteapple = console.log(fruits.delete("apple"));
-const deleteoreange = console.log(fruits.delete("oranges"));
-console.log(fruits);
+// const deleteapple = console.log(fruits.delete("apple"));            // false
+// const deleteoreange = console.log(fruits.delete("oranges"));        // true
+// console.log(fruits);												// {'apples' => 500, 'bananas' => 300}
 
 
 
@@ -73,11 +73,11 @@ console.log(fruits);
 
 // // forEach() method
 
-// let txt = "";
+	// let txt = "";
 
-// console.log(fruits.forEach((value, key))=>{
-// txt += key + " => " + value +"\n";
-// });
+	// console.log(fruits.forEach((value, key))=>{
+	// 		txt += key + " => " + value +"\n";
+	// });
 // console.log(txt);
 // apples => 500
 // bananas => 300
