@@ -1,8 +1,10 @@
-let value = function(i)
+function square(i,a=1)
 {
-    for(i=0 ; i<10 ; i++)
+    for(i=0 ; i<=10 ; i++)
     {
-        return i*i;
+        console.log(a*a);
     }
-};
-console.log(value(2));
+}
+
+
+
