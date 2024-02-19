@@ -38,20 +38,20 @@
 
 
 // loop -> For While dowhile
-// let t = "";
-// for(let i = 1 ; i < 10 ; i++){
-//     t = t + i + "\t";
-// }
-// console.log(t);
-
-
-
-
-let a=13 , t = "";
-do{
-    t = t + a + "\t";
-    a++;
-}while(a<=15);
+let t = "";
+for(let i = 1 ; i < 10 ; i++){
+    t = t + i + "\t";
+}
 console.log(t);
+
+
+
+
+// let a=13 , t = "";
+// do{
+//     t = t + a + "\t";
+//     a++;
+// }while(a<=15);
+// console.log(t);                     // 13  14  15
 
 
