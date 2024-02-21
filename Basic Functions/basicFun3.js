@@ -1,10 +1,10 @@
 //  //                   Function are Object
 
-function hello(a,b,c)
-{
-    return arguments.length;
-}
-console.log(hello(1,2,3));                             //   3
+// function hello(a,b,c)
+// {
+//     return arguments.length;
+// }
+// console.log(hello(1,2,3));                             //   3
 
 
 
@@ -13,17 +13,17 @@ console.log(hello(1,2,3));                             //   3
 
 //  //                Function Rest Parameters
 
-// function add(...aks)   // speard operator
+// function add(...args)   // speard operator
 // {
 //     let sum = 0;
-//     for(let i=0 ; i<aks.length ; i++)
-//     {
-//         sum += aks[i];
+//     for(let i=0 ; i<args.length ; i++)
+    
+//         sum = sum + args[i];
 
 //         return sum;
-//     }
-// }
-// console.log(add(111,22));
+    
+// };
+// console.log(add(1,2,3,6));                             //  12
 
 
 
