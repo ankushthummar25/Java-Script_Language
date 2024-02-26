@@ -1,5 +1,6 @@
 let date = new Date();
 console.log(date);
+
 /* 
     Fri Feb 23 2024 
     08:13:23 GMT+0530 (India Standard Time)
