@@ -10,14 +10,14 @@
 
 //  //  =>                  Basic Function
 
-// let a = (123456)
+let a = (123456)
 
-// function reverse(a){
-//     a = a + "";
-//     return Number(a.split("").reverse().join(""));
-// }
+function reverse(a){
+    a = a + "";
+    return Number(a.split("").reverse().join(""));
+}
 
-// console.log(reverse(12345));
+console.log(reverse(12345));                        // => 54321
 
 
 
@@ -27,8 +27,8 @@
 
 //  //    =>                Arrow Function     
 
-let add = (a) => { 
-    a = a + "";
-    return a.split("").reverse().join("");
-}
-console.log(Number(add(1234567)));
+// let add = (a) => { 
+//     a = a + "";
+//     return a.split("").reverse().join("");
+// }
+// console.log(Number(add(1234567)));                    // => 7654321

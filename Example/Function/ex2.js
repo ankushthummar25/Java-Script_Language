@@ -12,10 +12,24 @@
 */
 
 
-let txt = (a) => {
-    a = a + "";
-    return a.split("").sort((a,b)=> a-b).join("");
+
+// // =>                       Basic Function
+
+function txt(a) 
+{
+    return a.split("").sort().join("");
 }
 
+console.log(txt('webmstera'));                          // => abeemrstw
 
-console.log(txt('webmaster')); 
+
+
+
+
+
+// // =>                       Arrow Function
+
+let add = (a) => {
+    return a.split("").sort().join("");
+}
+console.log(add('admission'));                          // => adiimnoss
