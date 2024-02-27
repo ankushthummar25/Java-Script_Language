@@ -1,10 +1,5 @@
 let date = new Date();
 
+date.setHours(9);
+console.log(date);
 
-console.log(date.setDate());
-
-// date.setDate(10);
-
-console.log(date.setHours(10));
-
-console.log(date.setMonth(3));
