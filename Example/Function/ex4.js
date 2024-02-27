@@ -8,3 +8,16 @@
        Expected Output : 'Development'
 
 */
+
+function Longest_Word(str) 
+{
+    var word = str.split(' ');
+    
+    
+    for (var i = 0; i < word.length; i++) 
+    {
+     
+    }
+}
+  console.log(Longest_Word('Web Development Tutorial'));
+  
