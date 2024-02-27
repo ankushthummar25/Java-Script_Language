@@ -8,3 +8,19 @@
        Expected Output : 'The Quick Brown Fox'
 
 */
+
+
+const data = function add (a)
+{
+    let str = a.split(" ");
+    for(let i=0 ; i<str.length; i++)
+    {
+        str[i] = str[i][0].toUpperCase() + str[i].substring(1);
+    }
+    return str.join(" ");
+}
+
+console.log(data('the quick brown fox'));               // => The Quick Brown Fox
+
+
+
