@@ -24,5 +24,5 @@ function check (num){
     }
 }
 
-console.log(check(8));                             // => It is Not Perfect Number
-console.log(check(6));                             // => It is a Perfect Number
+check(8);                             // => It is Not Perfect Number
+check(6);                             // => It is a Perfect Number
