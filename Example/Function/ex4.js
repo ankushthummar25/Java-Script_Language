@@ -11,14 +11,15 @@
 
 function Longest_Word(str) 
 {
-    var word = str.split(' ');
+    // var word = str.split(' ');
     
     
-    for (var i = 0; i < word.length; i++) 
+    for (var i = 0; i < str.length; i++) 
     {
-        word[i] = word[i].Math.max.apply(null,i);
+        str[i].split("").Math.max.apply(null,str);
     }
-    return word[i].join("");
+    return str[i].join("");
+   
 }
   console.log(Longest_Word('Web Development Tutorial'));
   
