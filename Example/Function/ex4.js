@@ -14,9 +14,9 @@ function Longest_Word(str)
     let word = str.split(' ');
     
     
-    for (let i = 0; i < word.length; i++) 
+    for (let i = 0 ; i < word.length ; i++) 
     {
-        word[i] = Math.max.apply(null,str);
+        word[i] = Math.max.apply(word);
     }
     return word[i];
    
@@ -26,5 +26,5 @@ function Longest_Word(str)
 
 
 
-
+  
   
