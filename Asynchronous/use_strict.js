@@ -20,6 +20,7 @@
 
 
 
+
 // Strict Mode in Variable
 
 // In strict mode, using a variable without declaring it throws an error.
