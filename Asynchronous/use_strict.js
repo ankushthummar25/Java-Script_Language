@@ -76,12 +76,14 @@
 }
 
 
+
 // 2. Undeclared objects arenot allowed.
 {
     // 'use strict';
 
     // person = {name: 'Carle', abe: 25};    // throws an error
 }
+
 
 
 // 3. Deleting an object is not allowed.
@@ -94,6 +96,7 @@
 }
 
 
+
 // 4. Duplicating a parameter name is not allowed.
 {
     // "use strict";
@@ -102,6 +105,7 @@
 
     // hello();
 }
+
 
 
 // 5. Assigning to a non-writable prperty is not allowed.
@@ -117,6 +121,7 @@
 }
 
 
+
 // 6. Assigning to a getter-only property is not allowed.
 {
     // 'use strict';
@@ -126,6 +131,7 @@
     //   // assignment to a getter-only property
     // obj2.x = 5;      // throws an error
 }
+
 
 
 // 7. Assigning to a new property on a non-extensible object is not allowed.
@@ -139,11 +145,13 @@
 }
 
 
+
 // 8. Octal syntax is not allowed.
 {
     // 'use strict';
     // let a = 010;       // throws an error 
 }
+
 
 
 // 9. The Variable name arguments and eval are not allowed.
@@ -154,6 +162,7 @@
 
     // let eval = 44;
 }
+
 
 
 // 10. You cannot also use these reverved keywords in strict mode.
