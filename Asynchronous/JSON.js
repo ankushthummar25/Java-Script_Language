@@ -124,14 +124,14 @@
 {
     // // json object
     // const jsonData = '{ "name": "John", "age": 22 }';
-    // console. log(jsonData);
+    // console. log(jsonData);                              // { "name": "John", "age": 22 }
 
     // // converting to JavaScript object
     // const obj = JSON.parse(jsonData);
 
     // // accessing the data
-    // console. log(obj); // John
-    // console.log(obj.age); // John
+    // console. log(obj);           // John
+    // console.log(obj.age);        // John
 }
 
 
@@ -142,12 +142,12 @@
 
 {
     // // JavaScript object
-    const jsonData = { name: "John", age: 22 };
-    console.log(jsonData);
+//     const jsonData = { name: "John", age: 22 };
+//     console.log(jsonData);
     
-    // // converting to JSON
-    const obj = JSON.stringify(jsonData);
+//     // // converting to JSON
+//     const obj = JSON.stringify(jsonData);
 
-    // // accessing the data
-    console.log(obj);
+//     // // accessing the data
+//     console.log(obj);
 }

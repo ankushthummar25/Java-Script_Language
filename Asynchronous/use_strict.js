@@ -61,7 +61,7 @@
     //     string = 'hello';   // throw an error
     // }
 
-    // hello();
+    // console.log(hello());
 
     // // Note : Strict mode doesn't apply to block statements with {} braces.
 }
