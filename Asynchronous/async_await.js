@@ -81,7 +81,7 @@
     // async function asyncFunc() {
 
     //      // wait until the promise resolves
-    //      let result = awit promise;
+    //      let result = awit Promise;
     
     //      console.log(result);
     //      console.log('hello');
@@ -107,7 +107,7 @@
 {
     // let promise1 = new Promise(function (reslove,reject) {
     //            setTimeout(function () {
-    //                 resolve('Promise 1 resolved')
+    //                 reslove('Promise 1 resolved')
     //            },2000);
     // });
 
@@ -125,7 +125,7 @@
 
 
 
-    // asyc function asyncFUnc() {
+    // async function asyncFUnc() {
 
     //     let result1 = await promise1;
     //     console.log(result1);
