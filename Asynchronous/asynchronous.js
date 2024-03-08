@@ -22,8 +22,8 @@
 
 {
     // // program to display a tet using setTimeout method
-    // finction greet(){
-            // console.log('Hello World');
+    // function greet(){
+    //         console.log('Hello World');
     // }
     // // greet();
     // let id = setTimeout(greet ,2000);
@@ -43,12 +43,12 @@
     // // program to display a text using setTimeout method
     
     // function greet() {
-        // console.log('Hello World');
+    //     console.log('Hello World');
     // }
 
     // let intervalid = setTimeout(greet , 3000);
 
-    // console.log('Id: ' + intercaIId);
+    // console.log('Id: ' + intervaIId);
     // clesrTimeout(intervaIId);
     // console.log("Stop setTimeout Function");
 }
@@ -70,7 +70,7 @@
     //         let dataTime = new Date();
 
     //         // returns the current local time
-    //         let time = dateTime.toLocalTimeString();
+    //         let time = dataTime.toLocaleDateString();
 
     //         console.log(time);
 
@@ -221,7 +221,7 @@
     // const cout = false;
 
     // let countValue = new Promise(function (resolve , reject){
-    //         if (count) {
+    //         if (cout) {
     //                 resolve("There is a count value.");
     //                    } else {
     //                               reject("There is no count Value.");
@@ -304,12 +304,12 @@
 {
     // // returns a promise
     // let countValue = new Promise(function (resolve, reject) {
-    //            reject('Promise rejected);    
+    //            reject('Promise rejected');    
     // });
 
     // // executes when promise is resolved successfully
-    // countValie.then(
-    //        functon successValue(result) {
+    // countValue.then(
+    //        function successValue(result) {
     //            console.log(result);
     //        },
     //  );
@@ -330,19 +330,19 @@
     // // or rejected.
     
     // // returns a promise
-    let countValue = new Promise(function (resolve , reject) {
-        // could be reslved or rejected
-        resolve('Promise resolved');
-        // reject ('Promise rejected');
-    });
+    // let countValue = new Promise(function (resolve , reject) {
+    //     // could be reslved or rejected
+    //     resolve('Promise resolved');
+    //     // reject ('Promise rejected');
+    // });
 
-    // // // add other blocks of code
-    countValue
-        .then(result=>console.log(result))
-        .catch((err)=>console.log(err))
-        .finally(
-            function greet() {
-                console.log("This code is executed.");
-            }
-        );
+    // // // // add other blocks of code
+    // countValue
+    //     .then(result=>console.log(result))
+    //     .catch((err)=>console.log(err))
+    //     .finally(
+    //         function greet() {
+    //             console.log("This code is executed.");
+    //         }
+    //     );
 }
