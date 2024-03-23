@@ -11,3 +11,4 @@ function addToDisplay(value) {
   function clearDisplay() {
     document.getElementById("display").value = '';
   }
+  

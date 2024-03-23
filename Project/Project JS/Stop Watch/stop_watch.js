@@ -48,3 +48,4 @@ function reset() {
 
 startStopButton.addEventListener('click', startStop);
 resetButton.addEventListener('click', reset);
+
